@@ -1,7 +1,0 @@
-\documentclass[]{samba-resume}
-\begin{document}
-\section{Education}
-\datedsubsection{Boston University}{2017--2020}
-\section{Experience}
-\datedsubsection{Graduate Research Assistant}{May2018--Dec2019}
-\end{document}
