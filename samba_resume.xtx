@@ -1,0 +1,186 @@
+\documentclass[]{samba_resume}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+% updated date
+
+\lastupdated
+
+% Name section
+
+\namesection{Sambasiva Rao}{Gangineni}{ \urlstyle{same}\href{https://samba693.github.io}{samba693.github.io} \\
+\href{mailto:sambasivarao693@gmail.com}{sambasivarao693@gmail.com} | 857.425.9396 | \href{mailto:samba693@bu.edu}{samba693@bu.edu}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Boston University}
+\descript{MSc in Computer Info Systems}
+\location{Exp Dec 2019 | Boston, MA}
+\location{ Cum. GPA: 3.93 / 4.0}
+\sectionsep
+
+\subsection{R.V.R \& J.C C.E}
+\descript{B.Tech in Civil Engineering}
+\location{Grad. May 2017 |  Guntur, India}
+\location{ Cum. GPA: 9.23 / 10.0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/samba693}{\bf samba693} \\
+DevPost:// \href{https://devpost.com/samba693}{\bf samba693} \\
+LinkedIn://  \href{https://www.linkedin.com/in/samba693}{\bf in/samba693} \\
+Twitter://  \href{https://twitter.com/samba693}{\bf @samba693} \\
+StackOverflow://  \href{https://stackoverflow.com/users/8721887/}{\bf users/8721887/}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Big Data Analytics \\
+Artificial Intelligence \\
+Data Mining and Business Intelligence\\
+Database Design and Implementation\\
+Foundation of Analytics \\
+Information Structures with Python \\
+Data Structures and Algorithms \\
+System Analysis and Design \\
+\sectionsep
+
+\subsection{Undergraduate}
+Programming with C + Practicum\\
+Database Management System \\
+Computer Programming in CEngg\\
+{\footnotesize \textit{\textbf{( Teaching Asst ) }}} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+Python \textbullet{} Java \textbullet{} C \textbullet{} R \textbullet{} SQL \textbullet{} bash \\
+HTML \textbullet{} CSS \textbullet{} Javascript \textbullet{} Matlab \\ 
+\sectionssep
+\subsection{Databases}
+Oracle 10g \textbullet{} Elasticsearch \textbullet{} MongoDB \\
+\sectionssep
+\subsection{Frameworks}
+Spark \textbullet{} Flask \textbullet{} TensorFlow \\
+\sectionssep
+\subsection{Software \& Tools}
+Docker \textbullet{} AWS \textbullet{} Git \textbullet{} WEKA \textbullet{} SAS \\
+Logstash \textbullet{} Kibana \\
+\sectionsep
+
+\section{Awards}
+\textbf{ Won 3rd Prize } - \href{https://twitter.com/hnalla16/status/1049574943263023104}{ Imound} \\
+\textbf{ Best use of Algolia API } - \href{https://devpost.com/software/victory}{ Victory} \\
+\textbf{ Best use of IBM Cloud } - \href{https://devpost.com/software/resqu}{ ResQU} \\
+\textbf{ Won 1st Prize at University } - Chess
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{BU Health Informatics Lab}
+\descript{| Graduate Research Assitant }
+\location{May 2018 – Present | Boston, MA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Analyzing the MarketScan commercial database of 3TB in size, stored in SAS format.
+\item Effictively utilizing low memory resources for huge data files.
+\item Optimizing existing code and writing new code in python for data conversion, filtering , insights and visualization using sas7bdat, pandas, matplotlib, plotly and numpy.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{DEBS 2019 Grand Challenge}
+\descript{| Researcher}
+\location{Dec 2018 – Present | Boston, MA}
+Working with \textbf{\href{http://www.teymourian.de/}{Prof Kia Teymourian}} to come up with a state-of-the-art method to detect the multiple objects in a scene, where data is in format of point cloud.
+\sectionsep
+
+\section{Presentation}
+\runsubsection{6\textsuperscript{th} ICBD in Economics, Science \& Technology} \\
+\location{July 2018}
+Abstract of \textit{A Study of Hospitalized Diabetes Patients with Health Insurance in USA } was presented along with \textbf{\href{https://www.bu.edu/met/faculty/full-time/guanglan-zhang/}{Prof Guanglan Zhang}}.
+\sectionsep
+
+% Projects
+\section{Projects}
+
+\runsubsection{\href{https://github.com/samba693/Imound}{Imound}}
+\descript{- Tensorflow Label dectection, Image Enhancement}
+TensorFlow model which is trained on ImageNet dataset is used to detect the objects in the image and
+sound is integrated with the image.
+\sectionssep
+
+\runsubsection{\href{https://github.com/samba693/News-Snippets}{News Snippets}}
+\descript{- TopicModelling, TextRank, LDA}
+Topic modelling is done on the news data set using Latent Dirichlet Allocation. Extractive text summarization technique, TextRank, is used for text summary.
+\sectionssep
+
+\runsubsection{\href{https://github.com/samba693/BaseBallHackDay2019}{Baseball Mania}}
+\descript{- Sentiment Analysis, Prediction by sentiment }
+Tweets involving the teams before the baseball match day are collected and sentiment is calculated. Using the sentiments, match result is predicted.
+\sectionssep
+
+\runsubsection{Employment Status Prediction}
+\descript{- Classification }
+Predicted the employment status of a person based on many social factors using 20 classifier models using WEKA.
+\sectionssep
+
+\runsubsection{\href{https://github.com/samba693/Victory}{Victory}}
+\descript{- Google Cloud Fire Store }
+Created a website where people can post the jobs for veterans, organise meetups and Donate for the community.
+\sectionssep
+
+\runsubsection{\href{https://github.com/samba693/ResQUWithCloudant}{ResQU}}
+\descript{- Disaster Management }
+An application built for SOS service, NGO’s \& EMA’s search, Analysis \& Visualization of Flood Risk in the various state of US and Precautions \& Remedies for various disasters.
+\sectionssep
+
+\runsubsection{ETL}
+\descript{- Python, SQlite }
+Extracted the data from the CSV files, transformed the data into the acceptable format by the Sqlite3 database and loaded the transformed data in to database
+\sectionsep
+
+\end{minipage}
+\end{document}
+\documentclass[]{article}
