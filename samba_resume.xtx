@@ -142,7 +142,7 @@ StackOverflow  &\href{https://stackoverflow.com/users/8721887/}{\bf users/872188
 \location{Dec 2018 – Present | Boston University | Boston, MA}
 \begin{tightemize}
 \item Working with point-clouds collected by LiDAR in urban environment, to detect the objects in a 3D scene.
-\item Challenges are object segmentation and classification in real-time and no labels to objects in training data in multi-object scene.
+\item Challenges are object segmentation and classification in real-time and no labels tagged to objects in training data in multi-object scene.
 \end{tightemize}
 \sectionsep
 
