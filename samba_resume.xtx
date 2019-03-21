@@ -90,6 +90,14 @@ StackOverflow  &\href{https://stackoverflow.com/users/8721887/}{\bf users/872188
 \end{tabular}
 \sectionsep
 
+\section{Sports} 
+\begin{tabular}{rll}
+2016 &College, Chess &1\textsuperscript{st} place \\
+2016 &University, Chess &1\textsuperscript{st} place \\
+2015 &College, Chess &3\textsuperscript{rd} place \\
+\end{tabular}
+\sectionsep
+
 \section{Volunteer} 
 \begin{tabular}{rll}
 2016 &RVRJC, Sports &Organizer \\
@@ -117,9 +125,7 @@ StackOverflow  &\href{https://stackoverflow.com/users/8721887/}{\bf users/872188
 \descript{| Graduate Research Assistant }
 \location{May 2018 – Present | Boston University | Boston, MA}
 %\vspace{\topsep} % Hacky fix for awkward extra vertical space
-- Analyzing the MarketScan commercial database of 3TB in size, stored in SAS format.\\
-- Effictively utilizing low memory resources for huge data files.\\
-- Optimizing existing code \& writing new code in python for data conversion, filtering , insights \& visualization using sas7bdat, pandas, matplotlib, plotly \& numpy.
+Analyzing the MarketScan commercial database of 3TB in size, stored in SAS format. Effictively utilizing low memory resources for huge data files. Optimizing existing code \& writing new code in python for data conversion, filtering , insights \& visualization using sas7bdat, pandas, matplotlib, plotly \& numpy.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -131,16 +137,13 @@ StackOverflow  &\href{https://stackoverflow.com/users/8721887/}{\bf users/872188
 \descript{| Researcher}
 \location{Dec 2018 – Present | Boston University | Boston, MA}
 %\vspace{\topsep} % Hacky fix for awkward extra vertical space
-- Working with point-clouds collected by LiDAR in urban environment, to detect the objects in a 3D scene. \\
-- Challenges are object segmentation and classification in real-time and no labels tagged to objects in training data in multi-object scene.
+Working with point-clouds collected by LiDAR in urban environment, to detect the objects in a 3D scene. Challenges are object segmentation and classification in real-time and no labels tagged to objects in training data in multi-object scene.
 \sectionsep
 
 \runsubsection{6\textsuperscript{th} ICBD in Economics, Science \& Technology} \\
 \location{July 2018}
 
-- \textit{A Study of Hospitalized Diabetes Patients with Health Insurance in USA } was presented. \\
-- Research questions asked are effects of work place on types of diseases and common comorbidities present in hospitalized diabetes patients.\\
-
+\textit{A Study of Hospitalized Diabetes Patients with Health Insurance in USA } was presented. Research questions asked are effects of work place on types of diseases and common comorbidities present in hospitalized diabetes patients.
 \sectionsep
 
 % Projects
