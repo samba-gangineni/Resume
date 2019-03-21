@@ -12,7 +12,8 @@
 
 % Name section
 
-\namesection{Sambasiva Rao}{Gangineni}{\urlstyle{same}\myhref{https://samba693.github.io}{samba693.github.io} | 857.425.9396 | \myhref{mailto:sambasivarao693@gmail.com}{sambasivarao693@gmail.com}
+\namesection{Sambasiva Rao}{Gangineni}{\urlstyle{same} 857.425.9396 | \myhref{mailto:sambasivarao693@gmail.com}{sambasivarao693@gmail.com} \\
+LinkedIn : \myhref{https://www.linkedin.com/in/samba693}{in/samba693} | \myhref{https://samba693.github.io}{https://samba693.github.io} 
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -31,8 +32,8 @@
 
 \subsection{Boston University}
 \descript{MSc in Computer Info Systems}
-\location{Exp Dec 2019 | Boston, MA}
-\location{ Cum. GPA: 3.93 / 4.0}
+\location{Exp Dec 2019}
+\location{GPA: \textcolor{cyan}{3.93 / 4.0}}
 \sectionssep
 
 \ddescript{Coursework}
@@ -45,13 +46,14 @@ Data Structures \& Algorithms\\
 
 \subsection{R.V.R \& J.C C.E}
 \descript{B.Tech in Civil Engineering}
-\location{Grad. May 2017 |  Guntur, India}
-\location{ Cum. GPA: 9.23 / 10.0}
+\location{Grad. May 2017}
+\location{GPA: \textcolor{cyan}{9.23 / 10.0}}
 \sectionssep
 
 \ddescript{Coursework}
 Programming with C + Practicum\\
 Database Management System \\
+Geo Information Systems \\
 Computer Programming in CEngg\\
 {\footnotesize \textit{\textbf{( Teaching Asst ) }}} \\
 \sectionsep
@@ -70,20 +72,21 @@ HTML \textbullet{} CSS \textbullet{} Javascript \textbullet{} Matlab \\
 My SQL \textbullet{} Elasticsearch \textbullet{} MongoDB \\
 \sectionssep
 \subsection{Cluster \& ML Frameworks}
-Spark \textbullet{} TensorFlow \\
+Spark \textbullet{} TensorFlow \textbullet{} Hadoop \\
 \sectionssep
 \subsection{Software \& Tools}
-Docker \textbullet{} AWS \textbullet{} Git \textbullet{} WEKA \textbullet{} SAS \\
-Logstash \textbullet{} Kibana \textbullet{} Flask \\
-\sectionsep
+Docker \textbullet{} AWS \textbullet{} Git \textbullet{} SAS \textbullet{} Logstash \\
+Kibana \textbullet{} Flask \\
+\sectionssep
 
-\section{Awards} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Links} 
 \begin{tabular}{rll}
-2018	 & 3\textsuperscript{rd} place, Entmt  &\href{https://twitter.com/hnalla16/status/1049574943263023104}{\color{cyan}Imound} \\
-2018	 & 1\textsuperscript{st} place, Algolia  &\href{https://devpost.com/software/victory}{ Victory} \\
-2018	 & 1\textsuperscript{st} place, IBM  &\href{https://devpost.com/software/resqu}{ResQU} \\ 
-2016     & 1\textsuperscript{st} place, Univ  &Chess \\
-
+Github &\href{https://github.com/samba693}{\bf samba693} \\
+DevPost &\href{https://devpost.com/samba693}{\bf samba693} \\
+StackOverflow  &\href{https://stackoverflow.com/users/8721887/}{\bf users/8721887/}\\
 \end{tabular}
 \sectionsep
 
@@ -94,18 +97,6 @@ Logstash \textbullet{} Kibana \textbullet{} Flask \\
 \end{tabular}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Links} 
-\begin{tabular}{rll}
-Github &\href{https://github.com/samba693}{\bf samba693} \\
-DevPost &\href{https://devpost.com/samba693}{\bf samba693} \\
-LinkedIn  &\href{https://www.linkedin.com/in/samba693}{\bf in/samba693} \\
-StackOverflow  &\href{https://stackoverflow.com/users/8721887/}{\bf users/8721887/}\\
-\end{tabular}
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -125,62 +116,65 @@ StackOverflow  &\href{https://stackoverflow.com/users/8721887/}{\bf users/872188
 \runsubsection{Health Informatics Lab}
 \descript{| Graduate Research Assistant }
 \location{May 2018 – Present | Boston University | Boston, MA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Analyzing the MarketScan commercial database of 3TB in size, stored in SAS format.
-\item Effictively utilizing low memory resources for huge data files.
-\item Optimizing existing code and writing new code in python for data conversion, filtering , insights and visualization using sas7bdat, pandas, matplotlib, plotly and numpy.
-\end{tightemize}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+- Analyzing the MarketScan commercial database of 3TB in size, stored in SAS format.\\
+- Effictively utilizing low memory resources for huge data files.\\
+- Optimizing existing code \& writing new code in python for data conversion, filtering , insights \& visualization using sas7bdat, pandas, matplotlib, plotly \& numpy.
 \sectionsep
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research}
-\runsubsection{DEBS 2019 Grand Challenge}
+\section{Research Projects}
+\runsubsection{Computer Vision Lab}
 \descript{| Researcher}
 \location{Dec 2018 – Present | Boston University | Boston, MA}
-\begin{tightemize}
-\item Working with point-clouds collected by LiDAR in urban environment, to detect the objects in a 3D scene.
-\item Challenges are object segmentation and classification in real-time and no labels tagged to objects in training data in multi-object scene.
-\end{tightemize}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+- Working with point-clouds collected by LiDAR in urban environment, to detect the objects in a 3D scene. \\
+- Challenges are object segmentation and classification in real-time and no labels tagged to objects in training data in multi-object scene.
 \sectionsep
 
 \runsubsection{6\textsuperscript{th} ICBD in Economics, Science \& Technology} \\
 \location{July 2018}
-\begin{tightemize}
-\item Abstract of \textit{A Study of Hospitalized Diabetes Patients with Health Insurance in USA } was presented.
-\item Research questions asked are effects of work place on types of diseases and common comorbidities present in hospitalized diabetes patients
-\end{tightemize}
+
+- \textit{A Study of Hospitalized Diabetes Patients with Health Insurance in USA } was presented. \\
+- Research questions asked are effects of work place on types of diseases and common comorbidities present in hospitalized diabetes patients.\\
+
 \sectionsep
 
 % Projects
-\section{Projects}
+\section{Projects \& Awards}
 
-\runsubsection{Imound  \myhref{https://github.com/samba693/Imound}{  |}}
+\runsubsection{ResQU}
+\descript{- Disaster Management }
+\location{Link: \myhref{https://github.com/samba693/ResQUWithCloudant}{https://github.com/samba693/ResQU} | \textcolor{cyan}{BigRed Hacks, 1\textsuperscript{st} place}}
+An application built for SOS service, NGO’s \& EMA’s search, Analysis \& Visualization of Flood Risk in the various state of US for various disasters.
+\sectionssep
+
+\runsubsection{Victory}
+\descript{- Google Cloud Fire Store }
+\location{Link: \myhref{https://github.com/samba693/Victory}{https://github.com/samba693/Victory} | \textcolor{cyan}{Boston Hacks, 1\textsuperscript{st} place}}
+Created a website where people can post the jobs for veterans, organise meetups and Donate for the community.
+\sectionssep
+
+\runsubsection{Imound}
 \descript{- Tensorflow Label dectection, Image Enhancement}
+\location{Link: \myhref{https://github.com/samba693/Imound}{https://github.com/samba693/Imound} | \textcolor{cyan}{Att Hacks, 3\textsuperscript{rd} place}}
 TensorFlow model which is trained on ImageNet dataset is used to detect the objects in the image and
 sound is integrated with the image.
 \sectionssep
 
-\runsubsection{News Snippets  \myhref{https://github.com/samba693/News-Snippets}{ |}}
+\runsubsection{News Snippets}
 \descript{- TopicModelling, TextRank, LDA}
+\location{Link: \myhref{https://github.com/samba693/News-Snippets}{https://github.com/samba693/News-Snippets}}
 Topic modelling is done on the news data set using Latent Dirichlet Allocation. Extractive text summarization technique, TextRank, is used for text summary.
 \sectionssep
 
-\runsubsection{Baseball Mania  \myhref{https://github.com/samba693/BaseBallHackDay2019}{ |}}
+\runsubsection{Baseball Mania}
 \descript{- Sentiment Analysis \& Prediction }
+\location{Link: \myhref{https://github.com/samba693/BaseBallHackDay2019}{https://github.com/samba693/BaseBallHackDay2019}}
 Tweets involving the teams before the baseball match day are collected and sentiment is calculated. Using the sentiments, match result is predicted.
-\sectionssep
-
-\runsubsection{Victory  \myhref{https://github.com/samba693/Victory}{ |}}
-\descript{- Google Cloud Fire Store }
-Created a website where people can post the jobs for veterans, organise meetups and Donate for the community.
-\sectionssep
-
-\runsubsection{ResQU  \myhref{https://github.com/samba693/ResQUWithCloudant}{ |}}
-\descript{- Disaster Management }
-An application built for SOS service, NGO’s \& EMA’s search, Analysis \& Visualization of Flood Risk in the various state of US for various disasters.
 \sectionssep
 
 \runsubsection{Employment Status Prediction}
