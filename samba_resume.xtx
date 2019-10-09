@@ -13,7 +13,7 @@
 % Name section
 
 \namesection{Sambasiva Rao}{Gangineni}{\urlstyle{same} 857.425.9396 | \myhref{mailto:sambasivarao693@gmail.com}{sambasivarao693@gmail.com} \\
-LinkedIn : \myhref{https://www.linkedin.com/in/samba693}{in/samba693} | \myhref{https://samba693.github.io}{https://samba693.github.io} 
+LinkedIn : \myhref{https://www.linkedin.com/in/samba693}{in/samba693} | \myhref{https://sambasiva.me}{https://sambasiva.me} 
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -32,8 +32,8 @@ LinkedIn : \myhref{https://www.linkedin.com/in/samba693}{in/samba693} | \myhref{
 
 \subsection{Boston University}
 \descript{MSc in Computer Info Systems}
-\location{Exp Dec 2019}
-\location{GPA: \textcolor{cyan}{3.93 / 4.0}}
+\location{Exp Jan 2020}
+\location{GPA: \textcolor{cyan}{3.95 / 4.0}}
 \sectionssep
 
 \ddescript{Coursework}
@@ -66,7 +66,8 @@ Computer Programming in CEngg\\
 \section{Skills}
 \subsection{Programming}
 Python \textbullet{} Java \textbullet{} C \textbullet{} R \textbullet{} SQL \textbullet{} bash \\
-HTML \textbullet{} CSS \textbullet{} Javascript \textbullet{} Matlab \\ 
+HTML \textbullet{} CSS \textbullet{} Javascript \textbullet{} Matlab \\
+React \textbullet{} Go \\ 
 \sectionssep
 \subsection{Databases}
 My SQL \textbullet{} Elasticsearch \textbullet{} MongoDB \\
@@ -76,7 +77,7 @@ Spark \textbullet{} TensorFlow \textbullet{} Hadoop \\
 \sectionssep
 \subsection{Software \& Tools}
 Docker \textbullet{} AWS \textbullet{} Git \textbullet{} SAS \textbullet{} Logstash \\
-Kibana \textbullet{} Flask \\
+Kibana \textbullet{} Flask \textbullet{} Redis \\
 \sectionssep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -121,23 +122,41 @@ StackOverflow  &\href{https://stackoverflow.com/users/8721887/}{\bf users/872188
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+\runsubsection{Boston University}
+\descript{| Teaching \& Research Assistant }
+\location{Sep 2019 – Present | Boston, MA}
+Setting up the assignment evaluation system for the METCS777 BigData Analytics course.
+Solving the doubts in Spark during the lab sessions.
+\sectionsep
+
+\runsubsection{Diameter Health}
+\descript{| Informatics and Engineering Intern}
+\location{Jun 2019 – Aug 2019 | Boston, MA}
+Wrote a JavaScript transpiler for the Clinical Quality Language in Go. Generated synthetic Clinical HL7 messages in JavaScript. 
+Worked on the product fusion including writing the queries for MongoDB, maintaining the document queues in redis in Docker environment.
+\sectionsep
+
 \runsubsection{Health Informatics Lab}
 \descript{| Graduate Research Assistant }
-\location{May 2018 – Present | Boston University | Boston, MA}
+\location{May 2018 – May 2019 | Boston University | Boston, MA}
 %\vspace{\topsep} % Hacky fix for awkward extra vertical space
-Analyzing the MarketScan commercial database of 3TB in size, stored in SAS format. Effictively utilizing low memory resources for huge data files. Optimizing existing code \& writing new code in python for data conversion, filtering , insights \& visualization using sas7bdat, pandas, matplotlib, plotly \& numpy.
+Analyzing the MarketScan commercial database of 3TB in size, stored in SAS format. 
+Effictively utilizing low memory resources for huge data files. Optimizing existing code \& writing new code in python for data conversion, filtering , insights \& visualization using sas7bdat, pandas, matplotlib, plotly \& numpy.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research Projects}
-\runsubsection{Computer Vision Lab}
-\descript{| Researcher}
-\location{Dec 2018 – Present | Boston University | Boston, MA}
+\section{Research Papers}
+\runsubsection{ACM DEBS 2019}
+\descript{| Distributed and Event Based Systems}
+\location{Jun 2019 | TU Darmstadt | Darmstadt, Germany}
+\location{\myhref{https://doi.org/10.1145/3328905.3330297}{https://doi.org/10.1145/3328905.3330297} | \textcolor{cyan}{Performance \& Audience Awards}}
 %\vspace{\topsep} % Hacky fix for awkward extra vertical space
-Working with point-clouds collected by LiDAR in urban environment, to detect the objects in a 3D scene. Challenges are object segmentation and classification in real-time and no labels tagged to objects in training data in multi-object scene.
+Real-Time Object Recognition from Streaming LiDAR Point Cloud Data in urban environment. 
+Challenges are object segmentation \& classification in real-time 
+\& no labels tagged to objects in training data in multi-object scene.
 \sectionsep
 
 \runsubsection{6\textsuperscript{th} ICBD in Economics, Science \& Technology} \\
@@ -171,24 +190,24 @@ sound is integrated with the image.
 \runsubsection{News Snippets}
 \descript{- TopicModelling, TextRank, LDA}
 \location{Link: \myhref{https://github.com/samba693/News-Snippets}{https://github.com/samba693/News-Snippets}}
-Topic modelling is done on the news data set using Latent Dirichlet Allocation. Extractive text summarization technique, TextRank, is used for text summary.
+% Topic modelling is done on the news data set using Latent Dirichlet Allocation. Extractive text summarization technique, TextRank, is used for text summary.
 \sectionssep
 
 \runsubsection{Baseball Mania}
 \descript{- Sentiment Analysis \& Prediction }
 \location{Link: \myhref{https://github.com/samba693/BaseBallHackDay2019}{https://github.com/samba693/BaseBallHackDay2019}}
-Tweets involving the teams before the baseball match day are collected and sentiment is calculated. Using the sentiments, match result is predicted.
+% Tweets involving the teams before the baseball match day are collected and sentiment is calculated. Using the sentiments, match result is predicted.
 \sectionssep
 
-\runsubsection{Employment Status Prediction}
-\descript{- Classification }
-Predicted the employment status of a person based on many social factors using 20 classifier models using WEKA.
-\sectionssep
+% \runsubsection{Employment Status Prediction}
+% \descript{- Classification }
+% Predicted the employment status of a person based on many social factors using 20 classifier models using WEKA.
+% \sectionssep
 
-\runsubsection{ETL}
-\descript{- Python, SQlite }
-Extracted the data from the CSV files, transformed the data according to the Sqlite3 database and loaded the data in to database
-\sectionsep
+% \runsubsection{ETL}
+% \descript{- Python, SQlite }
+% Extracted the data from the CSV files, transformed the data according to the Sqlite3 database and loaded the data in to database
+% \sectionsep
 
 \end{minipage}
 \end{document}
