@@ -32,8 +32,8 @@ LinkedIn : \myhref{https://www.linkedin.com/in/samba693}{in/samba693} | \myhref{
 
 \subsection{Boston University}
 \descript{MSc in Computer Info Systems}
-\location{Exp Jan 2020}
-\location{GPA: \textcolor{cyan}{3.95 / 4.0}}
+\location{Grad. Jan 2020}
+\location{GPA: \textcolor{cyan}{3.86 / 4.0}}
 \sectionssep
 
 \ddescript{Coursework}
@@ -124,7 +124,7 @@ StackOverflow  &\href{https://stackoverflow.com/users/8721887/}{\bf users/872188
 \section{Experience}
 \runsubsection{Boston University}
 \descript{| Teaching \& Research Assistant }
-\location{Sep 2019 – Present | Boston, MA}
+\location{Sep 2019 – Dec 2019 | Boston, MA}
 Setting up the assignment evaluation system for the METCS777 BigData Analytics course.
 Solving the doubts in Spark during the lab sessions.
 \sectionsep
