@@ -12,9 +12,7 @@
 
 % Name section
 
-\namesection{Samba}{Gangineni}{\urlstyle{same} 857.425.9396 | \myhref{mailto:samba.sr.gangineni@gmail.com}{samba.sr.gangineni@gmail.com} \\
-LinkedIn : \myhref{https://www.linkedin.com/in/samba-gangineni}{in/samba-gangineni} | \myhref{https://www.samba-gangineni.com}{https://www.samba-gangineni.com} 
-}
+\namesection{Samba}{Gangineni}{\urlstyle{same} 857.425.9396 | \myhref{mailto:samba.sr.gangineni@gmail.com}{samba.sr.gangineni@gmail.com}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -68,11 +66,11 @@ Kibana \textbullet{} Flask \textbullet{} Redis \\
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Links} 
-\begin{tabular}{rll}
-Github &\href{https://github.com/samba693}{\bf samba693} \\
-DevPost &\href{https://devpost.com/samba693}{\bf samba693} \\
-StackOverflow  &\href{https://stackoverflow.com/users/8721887/}{\bf users/8721887/}\\
-\end{tabular}
+Github: \href{https://github.com/samba-gangineni}{ samba-gangineni} \\
+DevPost: \href{https://devpost.com/samba693}{ samba693} \\
+StackOverflow: \href{https://stackoverflow.com/users/8721887/}{ users/8721887/} \\
+LinkedIn: \href{https://www.linkedin.com/in/samba-gangineni}{ in/samba-gangineni} \\
+% Website: \href{https://www.samba-gangineni.com}{ samba-gangineni.com}
 \sectionsep
 
 \section{Sports} 
