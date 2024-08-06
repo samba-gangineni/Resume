@@ -132,49 +132,19 @@ Challenges are object segmentation \& classification in real-time
 \textit{A Study of Hospitalized Diabetes Patients with Health Insurance in USA } was presented. Research questions asked are effects of work place on types of diseases and common comorbidities present in hospitalized diabetes patients.
 \sectionsep
 
-% Projects
-\section{Projects \& Awards}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\runsubsection{ResQU}
-\descript{- Disaster Management }
-\location{Link: \myhref{https://github.com/samba693/ResQUWithCloudant}{https://github.com/samba693/ResQU} | \textcolor{cyan}{BigRed Hacks, 1\textsuperscript{st} place}}
-An application built for SOS service, NGO’s \& EMA’s search, Analysis \& Visualization of Flood Risk in the various state of US for various disasters.
-\sectionssep
+\section{Awards} 
 
-\runsubsection{Victory}
-\descript{- Google Cloud Fire Store }
-\location{Link: \myhref{https://github.com/samba693/Victory}{https://github.com/samba693/Victory} | \textcolor{cyan}{Boston Hacks, 1\textsuperscript{st} place}}
-Created a website where people can post the jobs for veterans, organise meetups and Donate for the community.
-\sectionssep
+\begin{tabular}{rll}
+2019 & ACM DEBS Grand challange winner \\
+2018 & 1st place in BigRedHacks (ResQu - An SOS application) \\
+2018 & 3rd place in Att Hacks (Imound - An app for visually challanged) \\
+\end{tabular}
 
-\runsubsection{Imound}
-\descript{- Tensorflow Label dectection, Image Enhancement}
-\location{Link: \myhref{https://github.com/samba693/Imound}{https://github.com/samba693/Imound} | \textcolor{cyan}{Att Hacks, 3\textsuperscript{rd} place}}
-TensorFlow model which is trained on ImageNet dataset is used to detect the objects in the image and
-sound is integrated with the image.
-\sectionssep
-
-\runsubsection{News Snippets}
-\descript{- TopicModelling, TextRank, LDA}
-\location{Link: \myhref{https://github.com/samba693/News-Snippets}{https://github.com/samba693/News-Snippets}}
-% Topic modelling is done on the news data set using Latent Dirichlet Allocation. Extractive text summarization technique, TextRank, is used for text summary.
-\sectionssep
-
-\runsubsection{Baseball Mania}
-\descript{- Sentiment Analysis \& Prediction }
-\location{Link: \myhref{https://github.com/samba693/BaseBallHackDay2019}{https://github.com/samba693/BaseBallHackDay2019}}
-% Tweets involving the teams before the baseball match day are collected and sentiment is calculated. Using the sentiments, match result is predicted.
-\sectionssep
-
-% \runsubsection{Employment Status Prediction}
-% \descript{- Classification }
-% Predicted the employment status of a person based on many social factors using 20 classifier models using WEKA.
-% \sectionssep
-
-% \runsubsection{ETL}
-% \descript{- Python, SQlite }
-% Extracted the data from the CSV files, transformed the data according to the Sqlite3 database and loaded the data in to database
-% \sectionsep
+\sectionsep % Some whitespace after the section
 
 \end{minipage}
 \end{document}
