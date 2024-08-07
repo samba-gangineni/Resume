@@ -118,18 +118,11 @@ Effictively utilizing low memory resources for huge data files. Optimizing exist
 \section{Research Papers}
 \runsubsection{ACM DEBS 2019}
 \descript{| Distributed and Event Based Systems}
-\location{Jun 2019 | TU Darmstadt | Darmstadt, Germany}
-\location{\myhref{https://doi.org/10.1145/3328905.3330297}{https://doi.org/10.1145/3328905.3330297} | \textcolor{cyan}{Performance \& Audience Awards}}
-%\vspace{\topsep} % Hacky fix for awkward extra vertical space
-Real-Time Object Recognition from Streaming LiDAR Point Cloud Data in urban environment. 
-Challenges are object segmentation \& classification in real-time 
-\& no labels tagged to objects in training data in multi-object scene.
-\sectionsep
-
-\runsubsection{6\textsuperscript{th} ICBD in Economics, Science \& Technology} \\
-\location{July 2018}
-
-\textit{A Study of Hospitalized Diabetes Patients with Health Insurance in USA } was presented. Research questions asked are effects of work place on types of diseases and common comorbidities present in hospitalized diabetes patients.
+\begin{tightemize}
+\item Real-Time Object Recognition from Streaming LiDAR Point Cloud Data in urban environment. 
+\item Challenges are object segmentation \& classification in real-time \& no labels tagged to objects in training data in multi-object scene.
+\item \myhref{https://doi.org/10.1145/3328905.3330297}{https://doi.org/10.1145/3328905.3330297}
+\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -139,7 +132,7 @@ Challenges are object segmentation \& classification in real-time
 \section{Awards} 
 
 \begin{tabular}{rll}
-2019 & ACM DEBS Grand challange winner \\
+2019 & ACM DEBS Grand challange winner (Object recognition) \\
 2018 & 1st place in BigRedHacks (ResQu - An SOS application) \\
 2018 & 3rd place in Att Hacks (Imound - An app for visually challanged) \\
 \end{tabular}
