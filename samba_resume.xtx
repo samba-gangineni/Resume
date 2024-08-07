@@ -146,9 +146,11 @@ LinkedIn: \href{https://www.linkedin.com/in/samba-gangineni}{ in/samba-gangineni
 \section{Research}
 \runsubsection{ACM DEBS 2019}
 \descript{| Distributed and Event Based Systems}
+Real-Time Object Recognition of LiDAR Point Cloud Data 
 \begin{tightemize}
-\item Real-Time Object Recognition from Streaming LiDAR Point Cloud Data in urban environment. 
-\item Challenges are object segmentation \& classification in real-time \& no labels tagged to objects in training data in multi-object scene.
+\item Designed and implemented the data processing architecture for real time detection
+\item Filtered the point cloud and detected object points with unsupervised clustering techniques
+\item Trained Convolution neural network to classify objects at near real time
 \item \myhref{https://doi.org/10.1145/3328905.3330297}{https://doi.org/10.1145/3328905.3330297}
 \end{tightemize}
 \sectionsep
