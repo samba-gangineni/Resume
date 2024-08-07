@@ -68,17 +68,17 @@ MongoDB \textbullet{} MSSQL Server \textbullet{}
 \sectionssep
 \subsection{Frameworks \& Tools}
 Temporal \textbullet {} Spark \textbullet{} TensorFlow \textbullet{} Rabbitmq \textbullet{} Docker \textbullet{} Kubernetes \textbullet{} Helm \textbullet{} Terraform \textbullet{} Pulumi
-\textbullet{} AWS \textbullet{} Git \textbullet{} \\
+\textbullet{} AWS \textbullet{} Git \textbullet{} Jenkins \textbullet{} Github workflows\\
 \sectionssep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Links} 
+LinkedIn: \href{https://www.linkedin.com/in/samba-gangineni}{ in/samba-gangineni} \\
 Github: \href{https://github.com/samba-gangineni}{ samba-gangineni} \\
 DevPost: \href{https://devpost.com/samba693}{ samba693} \\
 StackOverflow: \href{https://stackoverflow.com/users/8721887/}{ users/8721887/} \\
-LinkedIn: \href{https://www.linkedin.com/in/samba-gangineni}{ in/samba-gangineni} \\
 % Website: \href{https://www.samba-gangineni.com}{ samba-gangineni.com}
 \sectionsep
 
@@ -125,8 +125,16 @@ LinkedIn: \href{https://www.linkedin.com/in/samba-gangineni}{ in/samba-gangineni
 \location{Feb 2020 – Present | Boston, MA}
 \vspace{\topsep}
 \begin{tightemize}
-\item Wrote a JavaScript transpiler for the Clinical Quality Language in Go. Generated synthetic Clinical HL7 messages in JavaScript. 
-\item Worked on the product fusion including writing the queries for MongoDB, maintaining the document queues in redis in Docker environment.
+\item Designed and implementing a microservices-based stateless product pipeline with event-driven architecture on Temporal, aiming to make data storage optional and eliminate MongoDB.
+\item Led the successful transition of infrastructure code and customer environments from Pulumi to Terraform, improving infrastructure-as-code management and cloud infrastructure stability.
+\item Achieved a 5x performance improvement in FHIR data deduplication, minimized database and RabbitMQ load, and ensured high data accuracy by introducing a redesigned architecture and Kotlin coroutines, effectively reducing lock contentions and system bottlenecks.
+\item Streamlined FHIR data ingestion using Temporal, managing CI/CD and deployment into EKS using Terraform to drive efficient product integration and scalable healthcare data processing.
+\item Spearheaded MongoDB sharding for a large-scale healthcare data, redesigning application queries to boost performance and regenerating 6 billion FHIR resources to support 10 million patients.
+\item Managed large-scale claims data ingestion leveraging Spark, AWS Lambda, EMR, and Kubernetes, delivering efficient and fault-tolerant data processing for a population of 13 million patients.
+\item Built a clinical inference model to detect gaps in patient data, improving data integrity and supporting better health outcomes.
+\item Created realistic clinical synthetic notes using GPT-2 models and classifiers, simulating actual patient notes to support rigorous product testing, refinement.
+\item Automated terminology updates, enabling data normalization and actionable insights for informed decision-making, particularly during COVID-19.
+%\item terminology service
 \end{tightemize}
 \sectionsep
 
@@ -134,8 +142,9 @@ LinkedIn: \href{https://www.linkedin.com/in/samba-gangineni}{ in/samba-gangineni
 \descript{| Informatics and Engineering Intern}
 \location{Jun 2019 – Aug 2019 | Boston, MA}
 \begin{tightemize}
-\item Wrote a JavaScript transpiler for the Clinical Quality Language in Go. Generated synthetic Clinical HL7 messages in JavaScript. 
-\item Worked on the product fusion including writing the queries for MongoDB, maintaining the document queues in redis in Docker environment.
+%\item Built tools to streamline clinical development, including a Go transpiler for automating clinical quality language and a JavaScript synthetic data generator for HL7 messages, improving product quality and accelerating testing.
+\item Developed a transpiler in golang that converts clinical quality language into JavaScript, automating boilerplate code generation and streamlining development.
+\item Designed and implemented a synthetic data clinical HL7 message generator in JavaScript, providing a tool to improve product quality and accelerate testing and development cycles
 \end{tightemize}
 \sectionsep
 
@@ -146,11 +155,8 @@ LinkedIn: \href{https://www.linkedin.com/in/samba-gangineni}{ in/samba-gangineni
 \section{Research}
 \runsubsection{ACM DEBS 2019}
 \descript{| Distributed and Event Based Systems}
-Real-Time Object Recognition of LiDAR Point Cloud Data 
 \begin{tightemize}
-\item Designed and implemented the data processing architecture for real time detection
-\item Filtered the point cloud and detected object points with unsupervised clustering techniques
-\item Trained Convolution neural network to classify objects at near real time
+\item Architected a real-time object detection system for LiDAR data using clustering and convolutional neural networks.
 \item \myhref{https://doi.org/10.1145/3328905.3330297}{https://doi.org/10.1145/3328905.3330297}
 \end{tightemize}
 \sectionsep
