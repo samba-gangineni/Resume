@@ -40,22 +40,35 @@ Artificial Intelligence \\
 DataMining \& Business Intelligence\\
 \sectionsep
 
+\subsection{R.V.R \& J.C C.E}
+\descript{B.Tech in Civil Engineering}
+\location{Grad. May 2017}
+\location{GPA: \textcolor{cyan}{9.23 / 10.0}}
+\sectionssep
+
+\ddescript{Coursework}
+Programming with C + Practicum\\
+Database Management System \\
+Computer Programming in CEngg\\
+{\footnotesize \textit{\textbf{( Teaching Asst ) }}} \\
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
+
 \subsection{Programming}
 Javascript \textbullet{} Kotlin \textbullet{} Python \textbullet{} Java \textbullet{} Go \textbullet{} SQL \textbullet{} bash \textbullet{}
-HTML \textbullet{} CSS \textbullet{} HCL
+HTML \textbullet{} CSS \textbullet{} HCL \textbullet{} React \textbullet{} Flask \textbullet{}
 \sectionssep
 \subsection{Databases}
-MongoDB \textbullet{} MSSQL Server
+MongoDB \textbullet{} MSSQL Server \textbullet{}
 \sectionssep
 \subsection{Frameworks \& Tools}
-Temporal \textbullet{} React \textbullet {} Spark \textbullet{} TensorFlow \textbullet{} Rabbitmq \textbullet{} Docker \textbullet{} Kubernetes \textbullet{} Helm \textbullet{} Terraform \textbullet{} Pulumi
-\textbullet{} Flask \textbullet{} AWS \textbullet{} Git \\
+Temporal \textbullet {} Spark \textbullet{} TensorFlow \textbullet{} Rabbitmq \textbullet{} Docker \textbullet{} Kubernetes \textbullet{} Helm \textbullet{} Terraform \textbullet{} Pulumi
+\textbullet{} AWS \textbullet{} Git \textbullet{} \\
 \sectionssep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,6 +82,28 @@ LinkedIn: \href{https://www.linkedin.com/in/samba-gangineni}{ in/samba-gangineni
 % Website: \href{https://www.samba-gangineni.com}{ samba-gangineni.com}
 \sectionsep
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SPORTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Sports} 
+\begin{tabular}{rll}
+2016 &College, Chess &1\textsuperscript{st} place \\
+2016 &University, Chess &1\textsuperscript{st} place \\
+2015 &College, Chess &3\textsuperscript{rd} place \\
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     VOLUNTEER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Volunteer} 
+\begin{tabular}{rll}
+2016 &RVRJC, Sports &Organizer \\
+2016 &RVRJC, Fest &Organizer 
+\end{tabular}
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
