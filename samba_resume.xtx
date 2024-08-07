@@ -47,19 +47,15 @@ DataMining \& Business Intelligence\\
 
 \section{Skills}
 \subsection{Programming}
-Python \textbullet{} Java \textbullet{} C \textbullet{} R \textbullet{} SQL \textbullet{} bash \\
-HTML \textbullet{} CSS \textbullet{} Javascript \textbullet{} Matlab \\
-React \textbullet{} Go \\ 
+Javascript \textbullet{} Kotlin \textbullet{} Python \textbullet{} Java \textbullet{} Go \textbullet{} SQL \textbullet{} bash \textbullet{}
+HTML \textbullet{} CSS \textbullet{} HCL
 \sectionssep
 \subsection{Databases}
-My SQL \textbullet{} Elasticsearch \textbullet{} MongoDB \\
+MongoDB \textbullet{} MSSQL Server
 \sectionssep
-\subsection{Cluster \& ML Frameworks}
-Spark \textbullet{} TensorFlow \textbullet{} Hadoop \\
-\sectionssep
-\subsection{Software \& Tools}
-Docker \textbullet{} AWS \textbullet{} Git \textbullet{} SAS \textbullet{} Logstash \\
-Kibana \textbullet{} Flask \textbullet{} Redis \\
+\subsection{Frameworks \& Tools}
+Temporal \textbullet{} React \textbullet {} Spark \textbullet{} TensorFlow \textbullet{} Rabbitmq \textbullet{} Docker \textbullet{} Kubernetes \textbullet{} Helm \textbullet{} Terraform \textbullet{} Pulumi
+\textbullet{} Flask \textbullet{} AWS \textbullet{} Git \\
 \sectionssep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -89,33 +85,30 @@ LinkedIn: \href{https://www.linkedin.com/in/samba-gangineni}{ in/samba-gangineni
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Boston University}
-\descript{| Teaching \& Research Assistant }
-\location{Sep 2019 – Dec 2019 | Boston, MA}
-Setting up the assignment evaluation system for the METCS777 BigData Analytics course.
-Solving the doubts in Spark during the lab sessions.
+\runsubsection{Availity}
+\descript{| Software Engineer IV}
+\location{Feb 2020 – Present | Boston, MA}
+\vspace{\topsep}
+\begin{tightemize}
+\item Wrote a JavaScript transpiler for the Clinical Quality Language in Go. Generated synthetic Clinical HL7 messages in JavaScript. 
+\item Worked on the product fusion including writing the queries for MongoDB, maintaining the document queues in redis in Docker environment.
+\end{tightemize}
 \sectionsep
 
 \runsubsection{Diameter Health}
 \descript{| Informatics and Engineering Intern}
 \location{Jun 2019 – Aug 2019 | Boston, MA}
-Wrote a JavaScript transpiler for the Clinical Quality Language in Go. Generated synthetic Clinical HL7 messages in JavaScript. 
-Worked on the product fusion including writing the queries for MongoDB, maintaining the document queues in redis in Docker environment.
-\sectionsep
-
-\runsubsection{Health Informatics Lab}
-\descript{| Graduate Research Assistant }
-\location{May 2018 – May 2019 | Boston University | Boston, MA}
-%\vspace{\topsep} % Hacky fix for awkward extra vertical space
-Analyzing the MarketScan commercial database of 3TB in size, stored in SAS format. 
-Effictively utilizing low memory resources for huge data files. Optimizing existing code \& writing new code in python for data conversion, filtering , insights \& visualization using sas7bdat, pandas, matplotlib, plotly \& numpy.
+\begin{tightemize}
+\item Wrote a JavaScript transpiler for the Clinical Quality Language in Go. Generated synthetic Clinical HL7 messages in JavaScript. 
+\item Worked on the product fusion including writing the queries for MongoDB, maintaining the document queues in redis in Docker environment.
+\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research Papers}
+\section{Research}
 \runsubsection{ACM DEBS 2019}
 \descript{| Distributed and Event Based Systems}
 \begin{tightemize}
