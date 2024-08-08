@@ -68,7 +68,7 @@ MongoDB \textbullet{} MSSQL Server \textbullet{}
 \sectionssep
 \subsection{Frameworks \& Tools}
 Temporal \textbullet{} Spring Boot \textbullet{} Spark \textbullet{} TensorFlow \textbullet{} Rabbitmq \textbullet{} Docker \textbullet{} Kubernetes \textbullet{} Helm \textbullet{} Terraform \textbullet{} Pulumi
-\textbullet{} AWS \textbullet{} Git \textbullet{} Jenkins \textbullet{} Github workflows\\
+\textbullet{} AWS \textbullet{} Git \textbullet{} Jenkins \textbullet{}\\
 \sectionssep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
