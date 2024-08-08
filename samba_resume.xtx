@@ -60,14 +60,14 @@ Computer Programming in CEngg\\
 \section{Skills}
 
 \subsection{Programming}
-Javascript \textbullet{} Kotlin \textbullet{} Python \textbullet{} Java \textbullet{} Go \textbullet{} SQL \textbullet{} bash \textbullet{}
-HTML \textbullet{} CSS \textbullet{} HCL \textbullet{} React \textbullet{} Flask \textbullet{}
+Javascript \textbullet{} Kotlin \textbullet{} Python \textbullet{} Java \textbullet{} React \textbullet{} Flask \textbullet{} Go \textbullet{} SQL \textbullet{} bash \textbullet{}
+HTML \textbullet{} CSS \textbullet{} HCL \textbullet{}
 \sectionssep
 \subsection{Databases}
 MongoDB \textbullet{} MSSQL Server \textbullet{}
 \sectionssep
 \subsection{Frameworks \& Tools}
-Temporal \textbullet {} Spark \textbullet{} TensorFlow \textbullet{} Rabbitmq \textbullet{} Docker \textbullet{} Kubernetes \textbullet{} Helm \textbullet{} Terraform \textbullet{} Pulumi
+Temporal \textbullet{} Spring Boot \textbullet{} Spark \textbullet{} TensorFlow \textbullet{} Rabbitmq \textbullet{} Docker \textbullet{} Kubernetes \textbullet{} Helm \textbullet{} Terraform \textbullet{} Pulumi
 \textbullet{} AWS \textbullet{} Git \textbullet{} Jenkins \textbullet{} Github workflows\\
 \sectionssep
 
