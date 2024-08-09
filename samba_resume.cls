@@ -55,7 +55,7 @@ Last Updated on \today
 \color{headings}
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
-\vspace{-15pt}
+\vspace{-5pt}
 }
 
 % Section seperators 
@@ -88,10 +88,10 @@ Last Updated on \today
 \newcommand{\location}[1]{
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\ } \normalfont}
 
-% Bullet Lists with fewer gaps command
-\newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
-{\end{itemize}\vspace{-\topsep}}
-
 % Link colors
 \newcommand{\myhref}[3][cyan]{\href{#2}{\color{#1}{#3}}}
+
+% Bullet Lists with fewer gaps command
+\newenvironment{tightemize}
+{\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
+{\end{itemize}\vspace{-\topsep}}
