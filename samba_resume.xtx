@@ -65,7 +65,7 @@
         topsep=0.10 cm,
         parsep=0.10 cm,
         partopsep=0pt,
-        itemsep=0pt,
+        itemsep=0.1cm,
         leftmargin=0.4 cm + 10pt
     ]
 }{
@@ -133,7 +133,7 @@
         \vspace{0.3 cm}
 
         \normalsize
-        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Atlanta, GA}%
+        \mbox{\hrefWithoutArrow{https://github.com/samba-gangineni}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}samba-gangineni}}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
@@ -141,11 +141,15 @@
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{tel:+1-857-425-9396}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}857 425 9396}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
         \mbox{\hrefWithoutArrow{https://linkedin.com/in/samba-gangineni}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}samba-gangineni}}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{https://github.com/samba-gangineni}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}samba-gangineni}}%
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Atlanta, GA}%
     \end{header}
 
     \vspace{0.3 cm}
@@ -154,35 +158,38 @@
 
     \section{Profile}
     \begin{onecolentry}
-        Senior Developer with 5+ years of experience leading high-performance teams and architecting scalable microservices in the Node.js, Java Spring, and Python FastAPI ecosystems. Adept at designing and deploying robust data pipelines using Apache Spark and Scala, as well as developing innovative chatbot solutions leveraging Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) techniques. Proven track record in delivering reliable, scalable applications that drive business growth and operational efficiency.
+        Senior Software Engineer with 5+ years of experience leading high-performance teams and architecting scalable microservices in Node.js, Java Spring, and Python FastAPI ecosystems. Adept at designing and deploying robust data pipelines using Apache Spark and Scala, as well as developing innovative chatbot solutions leveraging Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) techniques. Proven track record in delivering reliable, scalable applications that drive business growth and operational efficiency.
     \end{onecolentry}
 
     %==================== Skills ====================
 
     \section{Skills}
     \begin{onecolentry}
-        \textbf{Programming:} Javascript, Kotlin, Python, Java, React, Flask, Go, SQL, bash, HTML, CSS, HCL \\
-        \textbf{Databases:} MongoDB, MSSQL Server \\
-        \textbf{Frameworks \& Tools:} Temporal, Spring Boot, Spark, TensorFlow, RabbitMQ, Docker, Kubernetes, Helm, Terraform, Pulumi, AWS, Git, Jenkins
+        \begin{highlights}
+            \item \textbf{Programming:} Javascript, Node.js, Kotlin, Python (FastAPI, Flask), Java (Spring Boot), React, Go, SQL, bash, HTML, CSS, HCL
+            \item \textbf{Databases:} MongoDB, MSSQL Server, FAISS, Elasticsearch
+            \item \textbf{Frameworks \& Tools:} Temporal, Spark, TensorFlow, RabbitMQ, Docker, Kubernetes, Helm, Terraform, Pulumi, AWS, Git, Jenkins, LangChain
+        \end{highlights}
     \end{onecolentry}
 
     %==================== Experience ====================
 
     \section{Experience}
     \begin{onecolentry}
-        \textbf{Availity} \hfill \textit{Feb 2020 – Present | Boston, MA} \\
+        \textbf{Availity} \hfill \textit{Feb 2020 – Present | Atlanta, GA} \\
         Software Engineer IV
         \begin{highlights}
-            \item Currently leading an ongoing redesign of a legacy application by integrating Apache Spark pipelines and Scala, significantly enhancing performance and scalability to support a multi-tenant architecture.
+            \item Currently leading an ongoing redesign of a legacy application by integrating Apache Spark pipelines and Scala, significantly enhancing performance \& scalability and reducing cost by 90\% to support a multi-tenant architecture.
             \item Developed an internal Confluence chatbot for knowledge management—implemented RESTful endpoints using Python FastAPI, integrated Large Language Models with a Retrieval-Augmented Generation (RAG) framework, and leveraged vector databases for efficient search and relevance ranking, significantly reducing time-to-information and boosting internal productivity.
+            \item Developed an AI agent to automatically generate comprehensive documentation for functions. This involved extracting function signatures and metadata, constructing effective prompts, and leveraging amazon Q integrated with LangChain to produce clear, human-readable documentation.
             \item Designed and implemented a microservices-based, stateless product pipeline with an event-driven architecture on Temporal, reducing dependency on MongoDB.
             \item Transitioned infrastructure code and customer environments from Pulumi to Terraform, enhancing cloud infrastructure stability.
             \item Achieved a 5x performance improvement in FHIR data deduplication by redesigning the architecture with Kotlin coroutines to minimize database and RabbitMQ load.
             \item Streamlined FHIR data ingestion using Temporal and managed CI/CD deployments into EKS with Terraform.
             \item Spearheaded MongoDB sharding for large-scale healthcare data, regenerating 6 billion FHIR resources for 10 million patients.
             \item Managed large-scale claims data ingestion using Spark, AWS Lambda, EMR, and Kubernetes for 13 million patients.
-            \item Built a clinical inference model to detect data gaps and created realistic clinical synthetic notes using GPT-2 models.
-            \item Automated terminology updates to enable data normalization and support decision-making during COVID-19.
+            \item Built a clinical inference model to detect gaps in clinical data using association mining.
+            \item Automated terminology updates with python on sql server by developing stored procedures to enable data normalization and support decision-making during COVID-19.
         \end{highlights}
 
         \vspace{0.2 cm}
@@ -210,9 +217,9 @@
             \item Paper slated for publication by September 2023.
         \end{highlights}
     \end{onecolentry}
-    
+    \vspace{0.2 cm}
     \begin{twocolentry}{
-        \textit{2019}}
+        \textit{Jun 2019}}
         \textbf{ACM DEBS} \\
         \textit{Distributed and Event Based Systems}
     \end{twocolentry}
@@ -237,21 +244,6 @@
         \begin{highlights}
             \item GPA: 3.86/4.0
             \item \textbf{Coursework:} Big Data Analytics with Spark, Artificial Intelligence, DataMining \& Business Intelligence
-        \end{highlights}
-    \end{onecolentry}
-
-    \vspace{0.2 cm}
-    
-    \begin{twocolentry}{
-        \textit{Grad. May 2017}}
-        \textbf{R.V.R \& J.C C.E}
-        \textit{B.Tech in Civil Engineering}
-    \end{twocolentry}
-    \vspace{0.10 cm}
-    \begin{onecolentry}
-        \begin{highlights}
-            \item GPA: 9.23/10.0
-            \item \textbf{Coursework:} Programming with C + Practicum, Database Management System
         \end{highlights}
     \end{onecolentry}
 
