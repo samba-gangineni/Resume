@@ -1,0 +1,286 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot,
+    top=2 cm,
+    bottom=2 cm,
+    left=2 cm,
+    right=2 cm,
+    footskip=1.0 cm,
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 79, 144}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage[
+    pdftitle={Samba Gangineni's CV},
+    pdfauthor={Samba Gangineni},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+% Custom settings:
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0cm}
+\makeatletter
+\let\ps@customFooterStyle\ps@plain
+\patchcmd{\ps@customFooterStyle}{\thepage}{
+    \color{gray}\textit{\small Samba Gangineni - Page \thepage{} of \pageref*{LastPage}}
+}{}{}
+\makeatother
+\pagestyle{customFooterStyle}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titlespacing{\section}{-1pt}{0.3 cm}{0.2 cm}
+
+\renewcommand\labelitemi{$\circ$}
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4 cm + 10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{0.2 cm + 0.00001 cm}{0.2 cm + 0.00001 cm}
+}{
+    \end{adjustwidth}
+}
+
+\newcommand{\AND}{\unskip
+    \cleaders\copy\ANDbox\hskip\wd\ANDbox
+    \ignorespaces
+}
+\newsavebox\ANDbox
+\sbox\ANDbox{}
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+}
+
+% Dynamic "Last updated" command:
+\newcommand{\monthname}[1]{%
+  \ifcase#1\or January\or February\or March\or April\or May\or June\or July\or August\or September\or October\or November\or December\fi%
+}
+\newcommand{\lastupdated}{%
+  \small\color{gray}\textit{Last updated on \monthname{\month} \the\year}%
+}
+\newcommand{\placelastupdatedtext}{%
+  \AddToShipoutPictureFG*{%
+    \put(
+      \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
+      \LenToUnit{\paperheight-1.0 cm}
+    ){%
+      \vtop{{\null}\makebox[0pt][c]{%
+        \lastupdated
+      }}%
+    }%
+  }%
+}
+
+% Custom external link command:
+\let\hrefWithoutArrow\href
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+
+\begin{document}
+    \placelastupdatedtext
+    \begin{header}
+        \textbf{\fontsize{24 pt}{24 pt}\selectfont Samba Gangineni}
+        \vspace{0.3 cm}
+
+        \normalsize
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Atlanta, GA}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{mailto:samba.sr.gangineni@gmail.com}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}samba.sr.gangineni@gmail.com}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/samba-gangineni}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}samba-gangineni}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://github.com/samba-gangineni}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}samba-gangineni}}%
+    \end{header}
+
+    \vspace{0.3 cm}
+
+    %==================== Profile ====================
+
+    \section{Profile}
+    \begin{onecolentry}
+        Senior Developer with 5+ years of experience leading high-performance teams and architecting scalable microservices in the Node.js, Java Spring, and Python FastAPI ecosystems. Adept at designing and deploying robust data pipelines using Apache Spark and Scala, as well as developing innovative chatbot solutions leveraging Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) techniques. Proven track record in delivering reliable, scalable applications that drive business growth and operational efficiency.
+    \end{onecolentry}
+
+    %==================== Skills ====================
+
+    \section{Skills}
+    \begin{onecolentry}
+        \textbf{Programming:} Javascript, Kotlin, Python, Java, React, Flask, Go, SQL, bash, HTML, CSS, HCL \\
+        \textbf{Databases:} MongoDB, MSSQL Server \\
+        \textbf{Frameworks \& Tools:} Temporal, Spring Boot, Spark, TensorFlow, RabbitMQ, Docker, Kubernetes, Helm, Terraform, Pulumi, AWS, Git, Jenkins
+    \end{onecolentry}
+
+    %==================== Experience ====================
+
+    \section{Experience}
+    \begin{onecolentry}
+        \textbf{Availity} \hfill \textit{Feb 2020 – Present | Boston, MA} \\
+        Software Engineer IV
+        \begin{highlights}
+            \item Designed and implemented a microservices-based, stateless product pipeline with an event-driven architecture on Temporal, reducing dependency on MongoDB.
+            \item Transitioned infrastructure code and customer environments from Pulumi to Terraform, enhancing cloud infrastructure stability.
+            \item Achieved a 5x performance improvement in FHIR data deduplication by redesigning the architecture with Kotlin coroutines to minimize database and RabbitMQ load.
+            \item Streamlined FHIR data ingestion using Temporal and managed CI/CD deployments into EKS with Terraform.
+            \item Spearheaded MongoDB sharding for large-scale healthcare data, regenerating 6 billion FHIR resources for 10 million patients.
+            \item Managed large-scale claims data ingestion using Spark, AWS Lambda, EMR, and Kubernetes for 13 million patients.
+            \item Built a clinical inference model to detect data gaps and created realistic clinical synthetic notes using GPT-2 models.
+            \item Automated terminology updates to enable data normalization and support decision-making during COVID-19.
+        \end{highlights}
+
+        \vspace{0.2 cm}
+        \textbf{Diameter Health} \hfill \textit{Jun 2019 – Aug 2019 | Boston, MA} \\
+        Informatics and Engineering Intern
+        \begin{highlights}
+            \item Developed a transpiler in Golang to convert clinical quality language into JavaScript, automating boilerplate code generation.
+            \item Designed and implemented a synthetic data generator for clinical HL7 messages in JavaScript, accelerating testing and development cycles.
+        \end{highlights}
+    \end{onecolentry}
+
+    %==================== Projects ====================
+
+    \section{Projects}
+    \begin{onecolentry}
+        \textbf{Confluence Chatbot for Internal Knowledge Management} \hfill \textit{2023} \\
+        \begin{highlights}
+            \item Developed an internal chatbot for Confluence to assist employees in quickly locating documentation and troubleshooting guides.
+            \item Built RESTful endpoints using Python FastAPI to manage API interactions.
+            \item Integrated Large Language Models using a Retrieval-Augmented Generation (RAG) framework to generate context-aware responses.
+            \item Leveraged vector databases to store and rapidly retrieve embeddings for efficient search and relevance ranking.
+            \item Improved internal productivity by reducing time-to-information and enhancing user experience.
+        \end{highlights}
+    \end{onecolentry}
+
+    %==================== Research ====================
+
+    \section{Research}
+    \begin{onecolentry}
+        \textbf{ACM DEBS 2019} \\
+        Distributed and Event Based Systems \\
+        \begin{highlights}
+            \item Architected a real-time object detection system for LiDAR data using clustering and convolutional neural networks.
+            \item Publication: \href{https://doi.org/10.1145/3328905.3330297}{https://doi.org/10.1145/3328905.3330297}
+        \end{highlights}
+    \end{onecolentry}
+
+    %==================== Education ====================
+
+    \section{Education}
+        \begin{twocolentry}{
+            \textit{Grad. Jan 2020}}
+            \textbf{Boston University}
+            \textit{MSc in Computer Info Systems}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item GPA: 3.86/4.0
+                \item \textbf{Coursework:} Big Data Analytics with Spark, Artificial Intelligence, DataMining \& Business Intelligence
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            \textit{Grad. May 2017}}
+            \textbf{R.V.R \& J.C C.E}
+            \textit{B.Tech in Civil Engineering}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item GPA: 9.23/10.0
+                \item \textbf{Coursework:} Programming with C + Practicum, Database Management System, Computer Programming in CEngg
+            \end{highlights}
+        \end{onecolentry}
+
+    %==================== Awards ====================
+
+    \section{Awards}
+    \begin{onecolentry}
+        \begin{tabular}{rl}
+            2019 & ACM DEBS Grand Challenge Winner (Object Recognition) \\
+            2018 & 1st Place in BigRedHacks (ResQu - An SOS Application) \\
+            2018 & 3rd Place in Att Hacks (Imound - An App for the Visually Challenged)
+        \end{tabular}
+    \end{onecolentry}
+
+    %==================== Volunteer ====================
+
+    \section{Volunteer}
+    \begin{onecolentry}
+        \begin{tabular}{rl}
+            2016 & RVRJC, Sports Organizer \\
+            2016 & RVRJC, Fest Organizer
+        \end{tabular}
+    \end{onecolentry}
+
+    %==================== Sports ====================
+
+    \section{Sports}
+    \begin{onecolentry}
+        \begin{tabular}{rll}
+            2016 & College, Chess & 1\textsuperscript{st} Place \\
+            2016 & University, Chess & 1\textsuperscript{st} Place \\
+            2015 & College, Chess & 3\textsuperscript{rd} Place \\
+        \end{tabular}
+    \end{onecolentry}
+
+\end{document}
