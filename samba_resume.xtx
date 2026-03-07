@@ -167,7 +167,7 @@
     \begin{onecolentry}
         \begin{highlights}
             \item \textbf{Programming:} Javascript, Node.js, Kotlin, Python (FastAPI, Flask), Java (Spring Boot), React, Go, SQL, bash, HTML, CSS, HCL
-            \item \textbf{Databases:} MongoDB, MSSQL Server, FAISS, Elasticsearch
+            \item \textbf{Databases:} MongoDB, MSSQL Server, Weaviate, Elasticsearch
             \item \textbf{Frameworks \& Tools:} Temporal, Spark, TensorFlow, RabbitMQ, Docker, Kubernetes, Helm, Terraform, Pulumi, AWS, Git, Jenkins, LangChain
         \end{highlights}
     \end{onecolentry}
