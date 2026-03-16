@@ -33,6 +33,7 @@
 \usepackage{ifthen}
 \usepackage{needspace}
 \usepackage{iftex}
+\usepackage{fancyhdr}
 
 \ifPDFTeX
     \input{glyphtounicode}
@@ -43,18 +44,17 @@
 
 % Custom settings:
 \AtBeginEnvironment{adjustwidth}{\partopsep0pt}
-\pagestyle{empty}
 \setcounter{secnumdepth}{0}
 \setlength{\parindent}{0pt}
 \setlength{\topskip}{0pt}
 \setlength{\columnsep}{0cm}
-\makeatletter
-\let\ps@customFooterStyle\ps@plain
-\patchcmd{\ps@customFooterStyle}{\thepage}{
-    \color{gray}\textit{\small Samba Gangineni - Page \thepage{} of \pageref*{LastPage}}
-}{}{}
-\makeatother
-\pagestyle{customFooterStyle}
+
+% Footer with page numbers (compile twice for LastPage)
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\color{gray}\textit{\small Samba Gangineni -- Page \thepage{} of \pageref*{LastPage}}}
 
 \titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 \titlespacing{\section}{-1pt}{0.3 cm}{0.2 cm}
@@ -94,7 +94,7 @@
     \switchcolumn \raggedleft \secondColumn
     \end{paracol}
     \endonecolentry
-} % new environment for two column entries
+}
 
 \newenvironment{header}{
     \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
@@ -158,7 +158,7 @@
 
     \section{Profile}
     \begin{onecolentry}
-    Senior Software Engineer with 5+ years of experience architecting and delivering scalable backend systems, distributed data pipelines, and production-grade AI applications. Strong track record building microservices (Java Spring Boot, Python FastAPI, Node.js), ETL/training pipelines (Apache Spark/Scala), and AI-powered customer experiences including LLM chatbots and recommendation platforms with observability, reliability, and cost controls across cloud environments (AWS, GCP).
+    Senior Software Engineer with 7+ years of experience architecting and delivering scalable backend systems, distributed data pipelines, and production-grade AI applications. Strong track record building microservices (Java Spring Boot, Python FastAPI, Node.js), ETL/training pipelines (Apache Spark/Scala), and AI-powered customer experiences including LLM agents and evaluation pipelines with observability, reliability, and cost controls across cloud environments (AWS, GCP).
     \end{onecolentry}
 
     %==================== Skills ====================
@@ -168,36 +168,38 @@
         \begin{highlights}
             \item \textbf{Programming:} Java, Kotlin, Python (FastAPI, Flask), JavaScript/Node.js, Go, SQL, Bash, HTML, CSS, HCL
             \item \textbf{Cloud \& DevOps:} AWS, GCP, Docker, Kubernetes, Helm, Terraform, Pulumi, Git, Jenkins, CI/CD, Redis
-            \item \textbf{Data \& AI Systems:} Apache Spark, Scala, Temporal, RabbitMQ, Elasticsearch, Vector Search (e.g., FAISS/Weaviate), LangChain, LangGraph, Google ADK, LangSmith (observability), TensorFlow
+            \item \textbf{Data \& AI Systems:} Apache Spark, Scala, Temporal, RabbitMQ, Elasticsearch, Vector Search (e.g., FAISS/Weaviate), LangChain, LangGraph, Google ADK, LangSmith (observability/evals)
+            \item \textbf{ML/LLM:} Evaluation pipelines, prompt tuning, RAG, agent/tool orchestration, TensorFlow/PyTorch
             \item \textbf{Databases:} MongoDB, MSSQL Server
         \end{highlights}
-    \end{onecolentry}   
+    \end{onecolentry}
 
     %==================== Experience ====================
 
     \section{Experience}
     \begin{onecolentry}
 
-        \textbf{The Home Depot} \hfill \textit{Jun 2025 – Present | Atlanta, GA} \\
+        \textbf{The Home Depot} \hfill \textit{Jun 2025 -- Present | Atlanta, GA} \\
         Senior Software Engineer
         \begin{highlights}
-            \item Built and enhanced the \textbf{Magic Apron Assistant} (LLM chatbot) using agentic orchestration frameworks (e.g., Google ADK, LangChain/LangGraph), improving response quality and reliability through structured tool calling and workflow routing.
-            \item Implemented efficient \textbf{conversation memory} and context management patterns for multi-turn interactions, enabling scalable session handling and improved user experience.
-            \item Added end-to-end \textbf{observability} for AI workflows (e.g., tracing/metrics/logging with LangSmith-style telemetry patterns) to monitor latency, errors, and LLM usage and improve production troubleshooting.
-            \item Implemented \textbf{rate limiting and backpressure} controls to protect downstream model/tool dependencies and improve system stability under load.
+            \item Built and enhanced the \textbf{Magic Apron Assistant} (LLM chatbot) using agent orchestration frameworks (e.g., Google ADK, LangChain/LangGraph), improving response quality through structured tool calling and workflow routing.
+            \item Designed the \textbf{Planner Assistant} architecture to unify Live Chat and Magic Apron, including session handling, conversation memory, and scalable agent routing using ADK-based patterns.
+            \item Own and maintain \textbf{RexAPI} for model serving and recommendation integrations, supporting batch/online workflows and production reliability (APIs, validation, error handling, and operational monitoring).
+            \item Contributed to the \textbf{Magic Forge} evaluation pipeline by building and running automated eval suites with metrics and gating (groundedness/faithfulness, hallucination rate, tool-call success rate, response formatting validity, latency, and cost), and enforcing regression thresholds to block prompt/agent changes that degraded quality.
+            \item Implemented \textbf{feedback loops} for LLM features, including evaluation dataset curation (goldens) for new capabilities, human review workflows, and capturing user feedback to drive iteration; partnered on automated failure triage workflows to expand regression coverage.
+            \item Implemented end-to-end \textbf{LangSmith} observability for Magic Apron (traces, datasets, and run comparisons) to support debugging, evaluation analysis, and release regression tracking.
+            \item Implemented \textbf{rate limiting and backpressure} controls to protect downstream model/tool dependencies and improve stability under load.
             \item Collaborated with Google on a specialized \textbf{Garden Agent} solution for garden-related customer experiences, leveraging Magic Apron capabilities and integrating domain-specific tools and flows.
-            \item Led the design and prototype development for \textbf{unifying Live Chat and Magic Apron}, enabling routing across multiple AI agents and laying the foundation to scale additional agent connections in the future.
-            \item Designed and developed an internal engineering tool with both \textbf{TUI and Web UI} interfaces to help engineers harness AI for faster design and implementation workflows.
-            \item Contributed to \textbf{model deployment}, \textbf{ETL/data pipelines}, and \textbf{recommendations serving} capabilities, supporting batch/online workflows and operational metrics.
+            \item Helped overhaul \textbf{recommendations MLOps pipelines} to enable data science teams to iterate faster, including training workflow improvements, automated metric publishing, and pipeline validation for reliable releases.
         \end{highlights}
 
         \vspace{0.25 cm}
 
-        \textbf{Availity} \hfill \textit{Feb 2020 – Jun 2025 | Atlanta, GA} \\
+        \textbf{Availity} \hfill \textit{Feb 2020 -- Jun 2025 | Atlanta, GA} \\
         Software Engineer IV
         \begin{highlights}
             \item Led a redesign of a legacy application by integrating Apache Spark pipelines and Scala, enhancing performance \& scalability and reducing cost by 90\% to support multi-tenant workloads.
-            \item Developed an internal Confluence chatbot for knowledge management—implemented REST endpoints using Python FastAPI, integrated LLMs with Retrieval-Augmented Generation (RAG), and leveraged vector search for efficient retrieval and relevance ranking.
+            \item Developed an internal Confluence chatbot for knowledge management --- implemented REST endpoints using Python FastAPI, integrated LLMs with Retrieval-Augmented Generation (RAG), and leveraged vector search for efficient retrieval and relevance ranking.
             \item Developed an AI agent to generate documentation from function signatures/metadata by constructing prompts and using Amazon Q integrated with LangChain to produce human-readable documentation.
             \item Designed and implemented a stateless product pipeline with event-driven architecture using Temporal, reducing tight coupling and improving reliability.
             \item Transitioned infrastructure code and customer environments from Pulumi to Terraform, improving provisioning repeatability and deployment stability.
@@ -205,13 +207,23 @@
             \item Streamlined data ingestion using Temporal and managed CI/CD deployments into EKS with Terraform.
             \item Spearheaded MongoDB sharding and large-scale dataset regeneration, supporting high-volume processing workloads.
             \item Managed large-scale ingestion pipelines using Spark, AWS Lambda, EMR, and Kubernetes for multi-tenant processing at scale.
-            \item Built an inference/analytics model to detect gaps in structured data using association mining techniques.
+            \item Helped build a \textbf{batch clinical inference model} to detect gaps in structured datasets using association mining, including feature preparation, batch scoring, and evaluation of output quality.
+            \item Used \textbf{TensorFlow} and \textbf{PyTorch} professionally for model experimentation and evaluation (e.g., generative modeling and text generation prototypes), including training runs, tuning, and result analysis.
             \item Automated terminology updates with Python and SQL Server stored procedures to support normalization and downstream analytics.
         \end{highlights}
 
         \vspace{0.2 cm}
 
-        \textbf{Diameter Health} \hfill \textit{Jun 2019 – Aug 2019 | Boston, MA} \\
+        \textbf{Boston University} \hfill \textit{May 2018 -- Dec 2019 | Boston, MA} \\
+        Graduate Research Assistant / Teaching Assistant (Big Data Analytics with Spark)
+        \begin{highlights}
+            \item Conducted graduate research on large-scale datasets using Python-based pipelines; produced reproducible experiments, metrics, and documentation for publication-quality results.
+            \item Supported Spark labs and office hours as TA, debugging assignments and teaching Spark concepts (transformations/actions, shuffles/partitioning, Spark SQL).
+        \end{highlights}
+
+        \vspace{0.2 cm}
+
+        \textbf{Diameter Health} \hfill \textit{Jun 2019 -- Aug 2019 | Boston, MA} \\
         Informatics and Engineering Intern
         \begin{highlights}
             \item Developed a transpiler in Golang to convert Clinical Quality Language into JavaScript, automating boilerplate code generation.
@@ -231,8 +243,7 @@
     \vspace{0.10 cm}
     \begin{onecolentry}
         \begin{highlights}
-            \item Currently researching methods to generate synthetic healthcare data using Mimic IV and Synthea sources.
-            \item Compared various GAN and Diffusion models, and finalized a GAN architecture that incorporates temporal aspects for realistic data simulation.
+            \item Researched methods to generate synthetic healthcare data using MIMIC-IV and Synthea sources; compared GAN and Diffusion approaches and incorporated temporal modeling to improve realism.
             \item Publication: \href{https://doi.org/10.1007/978-3-032-15632-7_20}{https://doi.org/10.1007/978-3-032-15632-7\_20}
         \end{highlights}
     \end{onecolentry}
@@ -270,6 +281,14 @@
 
     \section{Awards}
     \begin{onecolentry}
+        \textbf{Professional Awards}
+        \begin{tabular}{rl}
+            Jan 2026 & Executive Home Award (The Home Depot) -- Magic Apron Outdoor Assistant \\
+            Mar 2026 & Orange Spotlight Award (The Home Depot) -- Magic Apron Outdoor Assistant \\
+        \end{tabular}
+
+        \vspace{0.15 cm}
+        \textbf{Academic/Hackathon Awards}
         \begin{tabular}{rl}
             2019 & ACM DEBS Grand Challenge Winner (Object Recognition) \\
             2018 & 1st Place in BigRedHacks (ResQu - An SOS Application) \\
